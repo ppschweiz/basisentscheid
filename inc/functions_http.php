@@ -139,7 +139,7 @@ function html_head($title, $help=false) {
 		</div>
 		<nav>
 			<ul>
-				<li><a href="index.php" id="home" tabindex="1">Basisentscheid</a></li>
+				<li><a href="index.php" id="home" tabindex="1"><?=h(TITLE)?></a></li>
 				<li>
 					<form method="GET" action="<?
 	switch (BN) {
