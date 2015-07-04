@@ -9,10 +9,18 @@ style guide:
 
 /* 1. common definitions without id or class */
 
+@font-face {
+    font-family: FontDefault;
+    src: local(Aller),
+        url(../fonts/aller_rg.eot) format("embedded-opentype"),
+        url(../fonts/aller_rg.ttf) format("truetype");
+        url(../fonts/aller_rg.woff) format("woff");
+}
+
 body {
-	font-family: Verdana, Tahoma, Arial Unicode MS, Lucida Sans Unicode, Arial, Helvetica, sans-serif;
+	font-family: FontDefault;
 	color: #000;
-	background-color: #F4EEF7;
+	background-color: #F7D27B;
 	margin: 3px 20px 7px;
 	padding: 0;
 }
@@ -21,7 +29,7 @@ body {
 td, th,
 div.timebar,
 section.proposal_info ul {
-	font-family: Tahoma, Verdana, Arial Unicode MS, Lucida Sans Unicode, Arial, Helvetica, sans-serif;
+	font-family: FontDefault;
 }
 
 /* for compatibility with older browsers */
@@ -99,7 +107,7 @@ section#comments div.comment a {
 	padding: 0 0 1px 0;
 }
 a:visited {
-	color: #708;
+	color: #E95E0F;
 }
 a:link,
 div.filter a:visited,
@@ -107,7 +115,7 @@ div.add_record a:visited,
 table th a:visited,
 header a:link,
 div.comments_rubric a:link {
-	color: #00A;
+	color: #E89C74;
 }
 a:hover,
 a:focus {
@@ -282,7 +290,7 @@ header {
 	line-height: 46px;
 }
 header div#header {
-	background: #572B85 linear-gradient(to right, #572B85 1em, #FFF 25em);
+	background: #F9B200 linear-gradient(to right, #F9B200 1em, #FFF 50em);
 	display: inline-block;
 	width: 100%;
 	line-height: 1.6em;
