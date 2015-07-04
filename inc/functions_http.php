@@ -132,10 +132,11 @@ function html_head($title, $help=false) {
 ?>
 
 <header>
-	<a href="index.php" id="logo" tabindex="-1"><img src="img/logo.png" width="58" height="50" alt=""></a>
 	<div id="header">
+		<a href="index.php" id="logo" tabindex="-1"><img src="img/pplogo.png" height="32" alt="Piratenpartei"></a>
 		<div id="user">
 			<? html_user(); ?>
+			<img id="beologo" src="img/logo.png" height="32" alt="">
 		</div>
 		<nav>
 			<ul>

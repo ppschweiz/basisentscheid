@@ -296,9 +296,13 @@ header div#header {
 	line-height: 1.6em;
 }
 
+header div#header a {
+	top: 10px;
+}
+
 nav {
-	margin-top: 5px;
-	margin-left: 65px;
+	margin-top: 48px;
+	margin-left: 5px;
 	padding: 2px 5px 5px 5px;
 }
 nav ul,
@@ -377,6 +381,9 @@ div#user a.user {
 }
 div#user img {
 	vertical-align: middle;
+}
+div#user img#beologo {
+        margin-left: 8px;
 }
 div#user form.login {
 	display: inline;
